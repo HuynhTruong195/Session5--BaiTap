@@ -1,0 +1,91 @@
+.clock  {
+    background-color: beige;
+    width: 300px;
+    height: 300px;
+    border: 10px solid orange;
+    border-radius: 50%;
+    margin: 250px 0px 0px 250px;
+    position: relative;
+ 
+    }
+
+    
+    .point {
+        background-color: brown;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        margin-top: 140px;
+        margin-left: 136px;
+        position: absolute;
+        z-index: 2;
+    }
+    
+.kimphut {
+    background-color: black;
+    width: 110px;
+    height: 10px;
+    border-radius: 8px;
+   margin-left: 40px;
+   position: absolute;
+    top: 150px;
+    transform: rotate(0deg);
+    transform-origin: 100% 0%;
+    animation: rotate 3600s linear  infinite;
+ }
+
+@keyframes rotate  {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+
+    } 
+    
+}
+
+.kimgio  {
+    background-color: black;
+    width: 80px;
+    height: 10px;
+    border-radius: 8px;
+    transform: rotate(0deg);
+    transform-origin: 100% 0%;
+   margin-left: 75px;
+   position: absolute;
+    top: 150px;
+    animation: rotate2 43200s linear infinite  ;
+  
+    }
+ @keyframes rotate2  {
+    0% {
+        transform: rotate(0deg);
+    }
+
+   100% {
+    transform: rotate(360deg);
+   }
+
+   }
+
+.kimgiay {
+    background-color: red;
+    width: 135px;
+    height: 4px;
+    border-radius: 8px;
+    position: absolute;
+    top: 153px;
+    margin-left: 15px;
+    transform: rotate(0deg);
+    transform-origin: 100% 0%;
+    animation: rotate3 60s linear infinite;
+    z-index: 0;
+}
+   
+@keyframes rotate3  {
+   0% { transform: rotate(0deg)}
+   100% { transform: rotate(360deg);}
+}
+
